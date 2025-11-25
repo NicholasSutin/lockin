@@ -21,20 +21,27 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning={true}
       >
-        <div className="w-fit mx-auto mt-1">
-          <NavigationMenuDemo />
+        
+        <div className="sticky top-0 z-50">
+          <div className="w-fit mx-auto mt-2 h-9">
+            <NavigationMenuDemo />
+          </div>
         </div>
-        {children}
+
+        <div className="pt-2">
+          {children}
+        </div>
       </body>
     </html>
   );
 }
+
