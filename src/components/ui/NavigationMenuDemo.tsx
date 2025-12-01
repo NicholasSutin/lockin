@@ -69,7 +69,7 @@ export function NavigationMenuDemo() {
                     className="from-muted/50 to-muted flex h-full w-full flex-col justify-end rounded-md bg-linear-to-b p-4 no-underline outline-hidden transition-all duration-200 select-none focus:shadow-md md:p-6"
                     href="/"
                   >
-                    <div className="mb-2 text-lg font-medium sm:mt-4">
+                    <div className="mb-2 text-lg font-medium sm:mt-1">
                       Lock In &copy;
                     </div>
                     <p className="text-muted-foreground text-sm leading-tight">

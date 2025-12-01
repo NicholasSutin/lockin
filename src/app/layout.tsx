@@ -38,12 +38,12 @@ export default function RootLayout({
       >
         
         <div className="fixed top-0 left-0 w-full z-50 bg-background">
-          <div className="flex justify-center mt-2 h-9">
+          <div className="flex justify-center my-2 h-9">
             <NavigationMenuDemo />
           </div>
         </div>
 
-        <div className="mt-20 border-top-2 border-blue-900">
+        <div className="mt-10">
           {children}
         </div>
       </body>
