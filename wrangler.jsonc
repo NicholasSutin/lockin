@@ -13,7 +13,7 @@
 	"r2_buckets": [
 		{
 			"bucket_name": "cli-dev-bucket",
-			"binding": "cli_dev_bucket"
+			"binding": "NEXT_INC_CACHE_R2_BUCKET"
 		}
 	]
 }
