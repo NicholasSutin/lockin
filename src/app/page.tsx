@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { AccordionDemo } from "@/components/accordion-demo";
+
 export default function Home() {
   return (
     <div className="w-full p-4">
@@ -17,6 +19,9 @@ export default function Home() {
             height={800}
           />
         </div>
+
+        <AccordionDemo />
+
       </div>
     </div>
   );

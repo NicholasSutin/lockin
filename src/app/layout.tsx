@@ -43,7 +43,7 @@ export default function RootLayout({
           </div>
         </div>
 
-        <div className="my-60 border-top-2 border-blue-900">
+        <div className="mt-20 border-top-2 border-blue-900">
           {children}
         </div>
       </body>
