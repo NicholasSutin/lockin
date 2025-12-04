@@ -4,9 +4,11 @@ import sleepWithoutPhone from "../../../public/sleep-without-phone.webp";
 import stayAsleep from "../../../public/stay-asleep.webp";
 import wakeUp from "../../../public/wake-up.webp";
 
+import { Footer } from "@/components/footer";
+
+
 import { Brain, Users, RefreshCw, Heart } from 'lucide-react';
 
-import { RotatingText } from "@/components/ui/shadcn-io/rotating-text";
 
 export default function Shop() {
   return (
@@ -41,35 +43,36 @@ export default function Shop() {
         A Solution Built For Real Life
       </h1>
 
-      <div className="flex flex-col-1 md:flex-col-3 gap-8 px-6 my-auto justify-center">
-        <div>
-            <Image
-            src={sleepWithoutPhone}
-            alt="Portable audio hero"
-            priority
-            className="w-full h-auto"
-            />
-            <h1 className="text-3xl font-serif my-6">Fall asleep without your phone</h1>
-        </div>
-        <div>
-            <Image
-            src={stayAsleep}
-            alt="Portable audio hero"
-            priority
-            className="w-full h-auto"
-            />
-            <h1 className="text-3xl font-serif my-6">Rest Easy Without Disruption</h1>
-        </div>
-        <div>
-            <Image
-            src={wakeUp}
-            alt="Portable audio hero"
-            priority
-            className="w-full h-auto"
-            />
-            <h1 className="text-3xl font-serif my-6">Wake up with clarity and ease</h1>
-        </div>
-      </div>
+<div className="flex flex-col md:flex-row gap-8 px-6 my-auto justify-center items-stretch">
+  <div>
+    <Image
+      src={sleepWithoutPhone}
+      alt="Portable audio hero"
+      priority
+      className="w-full h-64 object-cover"
+    />
+    <h1 className="text-3xl font-serif my-6">Fall asleep without your phone</h1>
+  </div>
+  <div>
+    <Image
+      src={stayAsleep}
+      alt="Portable audio hero"
+      priority
+      className="w-full h-64 object-cover"
+    />
+    <h1 className="text-3xl font-serif my-6">Rest Easy Without Disruption</h1>
+  </div>
+  <div>
+    <Image
+      src={wakeUp}
+      alt="Portable audio hero"
+      priority
+      className="w-full h-64 object-cover"
+    />
+    <h1 className="text-3xl font-serif my-6">Wake up with clarity and ease</h1>
+  </div>
+</div>
+
 
       <div className="w-full">
         <section className="w-full bg-[#f5f1e8] px-4 mt-40 py-20 sm:px-6 lg:px-8">
@@ -182,7 +185,7 @@ export default function Shop() {
             </div>
             <div className="relative">
               <Image
-                src="/SampleImage.png"
+                src="/obregon-product-drawing.png"
                 alt="Phone lock demonstration"
                 width={500}
                 height={500}
@@ -232,6 +235,9 @@ export default function Shop() {
         </div>
       </section>
 
+      <div className="max-w-295 mx-auto p-4">
+        <Footer />
+      </div>
 
       </div>
     </div>

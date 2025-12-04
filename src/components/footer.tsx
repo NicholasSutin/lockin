@@ -24,7 +24,7 @@ export function Footer() {
 
    <div className="px-6 py-8 grid grid-cols-[2fr_1fr_1fr] gap-x-8 mt-50 bg-black/40 backdrop-blur-md rounded-xl">
             <div>
-                <h1 className="font-switzer text-xl mb-3">Be Better</h1>
+                <h1 className="font-switzer text-xl mb-3">Lock In.</h1>
                 
             </div>
             <div>
@@ -36,7 +36,7 @@ export function Footer() {
             </div>
 
             <div>
-                <p className="text-accent/80 py-2">With Block, your phone doesn't just get a time limit - Its schedule transforms to guide your habits</p>
+                <p className="text-accent/80 py-2">With Block, your phone doesn't just get a time limit - It's schedule transforms to guide your habits</p>
             </div>
             <div>
                 <Button variant="link" className="text-accent/80 text-md p-0 hover:cursor-pointer">
@@ -45,7 +45,7 @@ export function Footer() {
             </div>
             <div>
                 <Button variant="link" className="text-accent/80 text-md p-0 hover:cursor-pointer">
-                    <Link href="#" className="py-2">About Us</Link>
+                    <Link href="/about" className="py-2">About Us</Link>
                 </Button>
             </div>
 

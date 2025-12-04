@@ -78,10 +78,10 @@ export function NavigationMenuDemo() {
                   </Link>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/block" title="Block">
+              <ListItem href="#" title="Block">
                 A physical object for phone limits
               </ListItem>
-              <ListItem href="/app" title="App">
+              <ListItem href="#" title="App">
                 Learn more about installation
               </ListItem>
               <ListItem href="/about" title="About Us">
@@ -101,10 +101,10 @@ export function NavigationMenuDemo() {
             <ul className="grid w-[200px] gap-4">
               <li>
                 <NavigationMenuLink asChild>
-                  <Link href="#">Shop</Link>
+                  <Link href="/shop">Shop</Link>
                 </NavigationMenuLink>
                 <NavigationMenuLink asChild>
-                  <Link href="#">About</Link>
+                  <Link href="/about">About</Link>
                 </NavigationMenuLink>
                 <NavigationMenuLink asChild>
                   <Link href="#">How it Works</Link>
