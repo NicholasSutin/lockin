@@ -40,7 +40,7 @@ export function Footer() {
             </div>
             <div>
                 <Button variant="link" className="text-accent/80 text-md p-0 hover:cursor-pointer">
-                    <Link href="#" className="py-2">Block</Link>
+                    <Link href="shop" className="py-2">Block</Link>
                 </Button>
             </div>
             <div>
