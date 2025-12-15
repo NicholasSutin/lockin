@@ -19,7 +19,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 mb-6 md:mb-0 ">
           <Image
-            src="/HandHeld.png"
+            src="/block.webp"
             alt="Hand Held"
             className="w-full rounded-md bg-accent mb-8"
             width={800}
@@ -47,7 +47,7 @@ export default function Home() {
 
           <div className="mt-4">
             <Image
-              src="/LockPhone.png"   // lives in /public
+              src="/phoneMockup.webp"   // lives in /public
               alt="LockIn phone"
               className="w-full rounded-md"
               width={800}

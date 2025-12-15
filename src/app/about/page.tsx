@@ -67,7 +67,7 @@ export default function ContactPage() {
         </section>
       </main>
 
-      <div className="max-w-250 mx-auto">
+      <div className="max-w-250 mx-auto pb-5">
               <Footer />
 
       </div>
