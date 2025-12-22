@@ -19,19 +19,19 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 mb-6 md:mb-0 ">
           <Image
-            src="/block.webp"
+            src="/PhoneBlender.webp"
             alt="Hand Held"
             className="w-full rounded-md bg-accent mb-8"
             width={800}
             height={800}
           />
           <div className="flex flex-col gap-4 justify-center items-center mx-4">
-            <h1 className="text-3xl text-center font-switzer">Introducing Block</h1>
+            <h1 className="text-3xl text-center font-switzer">Introducing <u>Lock In</u></h1>
             <p className="text-center max-w-md mx-auto">
-              A physical device that temporarily removes distracting apps & their notifications from your phone. Designed for simplicity. No subscriptions. No complex setups. Just more time for what matters.
+              A physical device that applies restrictions to phone use
             </p>
             <Button variant="secondary" className="hover:cursor-pointer mx-auto">
-              Shop Cyber Monday
+              Shop Holiday Sale
             </Button>
           </div>
         </div>
@@ -46,13 +46,17 @@ export default function Home() {
           </h1>
 
           <div className="mt-4">
-            <Image
-              src="/phoneMockup.webp"   // lives in /public
-              alt="LockIn phone"
+            <video
+              src="/BlenderPhoneDemo.mp4"
               className="w-full rounded-md"
               width={800}
               height={800}
+              autoPlay
+              muted
+              loop
+              playsInline
             />
+
           </div>
 
             <div className="grid grid-cols-2 xl:grid-cols-4 gap-4 col-span-2 *:border *:p-4 *:rounded-sm mt-4">
